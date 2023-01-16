@@ -1,0 +1,33 @@
+@mixin reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flex-column-center {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin width_height($width,$height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin bg-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}

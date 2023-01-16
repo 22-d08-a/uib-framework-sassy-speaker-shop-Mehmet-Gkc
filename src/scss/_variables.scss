@@ -1,0 +1,20 @@
+$body-bg: #000;
+$body-color: #111;
+$primary: #0074d9;
+$danger: #ff4136;
+$carscolor:#C5281C;
+$secondary:#32db64;
+$light:#f4f4f4;
+$dark:#000;
+$popover:#404040;
+$unread:#808080;
+$note:#666;
+
+li {
+    list-style: none;
+    padding: 1rem;    
+}
+a {
+    text-decoration: none;
+    color: $primary;
+}
